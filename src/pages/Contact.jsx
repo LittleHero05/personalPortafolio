@@ -33,6 +33,14 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="main-container">
+      <div className="text-container">
+        <h1>Get in touch</h1>
+        <p>
+          If you have any questions or would like to get in touch, please email me at
+          <a href="mailto: isaporras1122@gmail.com"> isaporras1122@gmail.com</a>, contact me through <a href="https://www.linkedin.com/in/isabella-porras-134b2a295/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+          or fill out this form and I will be in contact shortly.
+        </p>
+      </div>
       <div className="contact-container">
         <h1>Contact</h1>
         <form onSubmit={handleSubmit}>
