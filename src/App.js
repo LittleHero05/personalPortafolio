@@ -3,6 +3,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
 
+/**
+ * File: App.js
+ * Author: Isabella Porras
+ * Date: Septermber 2024
+ * Studet ID: 301345524
+ * 
+ */
+
 function App() {
   return (
     <div>
