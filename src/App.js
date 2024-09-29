@@ -5,8 +5,10 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div>
+          
       <Navbar />
+      <div class="main-container">
       <div className="header-container">
         <img src="/orchid.png" alt="Orchid Icon" className="orchid-icon" />
         <h1 class="heading">Isabella Porras</h1>
@@ -24,8 +26,10 @@ function App() {
           </p>
         </div>
       </div>
-      <Footer />
-    </>
+    </div>
+    <Footer />
+    </div>
+
   );
 }
 

@@ -32,6 +32,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
+      <div className="main-container">
       <div className="contact-container">
         <h1>Contact</h1>
         <form onSubmit={handleSubmit}>
@@ -91,6 +92,7 @@ const Contact = () => {
           </div>
           <button type="submit">Send Message</button>
         </form>
+      </div>
       </div>
       <Footer />
     </div>

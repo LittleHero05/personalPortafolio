@@ -8,30 +8,39 @@ function About() {
   return (
     <div>
       <Navbar />
+      <div class="main-container">
       <div className="about-container">
         <div className="timeline">
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>2023</h3>
-              <p>Started my journey in software engineering.</p>
+              <h3>2022</h3>
+              <p>Completed CS50x - Introduction to Computer Science by Hardvard University.</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>2024</h3>
-              <p>Worked on several data visualization projects.</p>
+              <h3>2023 - Present</h3>
+              <p>Started my Software Engineering Advanced Diploma at Centennial College.</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>2025</h3>
-              <p>Graduated with a degree in Software Engineering.</p>
+              <h3>2024 - Present</h3>
+              <p>Completed The Oding Project Foundations course. Actively working on Full Stack Java Script Path.</p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>2024 - Present</h3>
+              <p>Actively learning Python for Data Science with Educative IO</p>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </div>

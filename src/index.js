@@ -14,6 +14,7 @@ import Projects from './pages/Projects';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import NoPage from './pages/NoPage';
+import Modeling from './pages/Modeling';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <NoPage />,
+  },
+  {
+    path: "/Modeling",
+    element: <Modeling />,
   }
 ]);
 

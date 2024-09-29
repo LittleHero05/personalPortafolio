@@ -4,7 +4,7 @@
  
  function Home() {
    return (
-     <div>
+     <div class="main-container">
          <Navbar />
        <h1>
          This is Home page
