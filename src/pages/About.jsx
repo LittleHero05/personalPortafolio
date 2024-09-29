@@ -4,6 +4,15 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './About.css';
 
+
+/**
+ * File: About.js
+ * Author: Isabella Porras
+ * Date: Septermber 2024
+ * Studet ID: 301345524
+ * 
+ */
+
 function About() {
   return (
     <div>

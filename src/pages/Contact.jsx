@@ -4,6 +4,15 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './Contact.css';
 
+
+/**
+ * File: Contact.jsx
+ * Author: Isabella Porras
+ * Date: Septermber 2024
+ * Studet ID: 301345524
+ * 
+ */
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     firstName: '',
