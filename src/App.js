@@ -6,38 +6,39 @@ import './App.css';
 /**
  * File: App.js
  * Author: Isabella Porras
- * Date: Septermber 2024
- * Studet ID: 301345524
+ * Date: September 2024
+ * Student ID: 301345524
  * 
  */
 
 function App() {
   return (
-    <div>
-          
+    <div className="page-container">
       <Navbar />
-      <div class="main-container">
-      <div className="header-container">
-        <img src="/orchid.png" alt="Orchid Icon" className="orchid-icon" />
-        <h1 class="heading">Isabella Porras</h1>
+      <div className="content-wrap">
+        <div className="main-container">
+          <div className="header-container">
+            <img src="/orchid.png" alt="Orchid Icon" className="orchid-icon" />
+            <h1 className="heading">Isabella Porras</h1>
+          </div>
+          <div className="main-content">
+            <div className="about-me">
+              <p>
+                Hi, I'm Isabella Porras, a 2nd year Software Engineer student with a passion for data science and logic driven problem solving.
+                My time at Centennial College and my independent pursuit of courses such as The Odin Project,
+                has given me a solid foundation in software development, using the MERN stack and in areas such as data analysis.
+                I enjoy working with data and creating visualizations and analysis, using Python and its libraries.
+              </p>
+            </div>
+          </div>
+        <div className="resume-button-container">
+        <a href="/Resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">View My Resume</a>
       </div>
-      <div className="main-content">
-        <div className="about-me">
-          <p>
-            Hi, I'm Isabella Porras, a 2nd year Software Engineer student with a passion for data science and logic driven problem solving.
-            My time at Centennial College and my independent persue of courses such as The Odin Project,
-            has given me a solid foundation in software development, using the MERN stack and in areas such as data analysis.
-            I enjoy working with data and creating visualzations and analysis, using Python and its libraries
-             such as pandas, plotly, maplotlib, and softwares such as Tableau. 
-            Check out my work on <a href="https://github.com/LittleHero05" target="_blank" rel="noopener noreferrer">GitHub</a> and connect with me on 
-            <a href="www.linkedin.com/in/isabella-porras-134b2a295" target="_blank" rel="noopener noreferrer"> LinkedIn</a>.
-          </p>
         </div>
       </div>
+      
+      <Footer />
     </div>
-    <Footer />
-    </div>
-
   );
 }
 
